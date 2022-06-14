@@ -1,12 +1,12 @@
-<?	
-// Include the PHPWord.php, all other classes were loaded by an autoloader
+<?php
 require_once "PHPWord/PHPWord.php";
 require 'inc/db.php';
+require'link.php';
 // Create a new PHPWord Object
 $PHPWord = new PHPWord();
-//connexion à la base mysqli avec les bons mot de passe et utilisateur
 
-include ('link.php');
+
+;
  
  if (isset($_POST['NUM'])) 
 {
