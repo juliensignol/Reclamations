@@ -4,9 +4,6 @@ require 'inc/db.php';
 require'link.php';
 // Create a new PHPWord Object
 $PHPWord = new PHPWord();
-
-
-;
  
  if (isset($_POST['NUM'])) 
 {
